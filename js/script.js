@@ -4,7 +4,8 @@ menuItems.forEach(function(item) {
         const currentItem = document.querySelector('.active');
         currentItem.classList.remove('active');
         e.target.classList.add('active');
-});
+    }
+    );
 });
 
 const changeFontBtn = document.querySelector('#change-font');

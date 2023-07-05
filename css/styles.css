@@ -165,11 +165,11 @@ footer{
         margin: 32px;
     }
 
-    li.menu-item:hover;
-    li.menu-item a.active;
-    a.btn:hover {
-    background: rgba(175, 89, 158, 0.5);
-    transition: background-color 0.3s;
+    li.menu-item:hover,
+        li.menu-item a.active,
+        a.btn:hover {
+            background: rgba(175, 89, 158, 0.5);
+            transition: background-color 0.3s;
     }
 }
 
